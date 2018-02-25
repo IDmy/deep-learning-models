@@ -4,6 +4,11 @@ This folder contains the model for art generation by Neural style transfer.
 
 ![alt text](output_dali/generated_image.jpg?raw=true "Title")
 
+<p align="center">
+  <img src="output_dali/generated_image.jpg" width="300"/>
+  <img src="https://github.com/IDmy/deep-learning-models/blob/master/art_generation/output/generated_image.jpg" width="300"/>
+</p>
+
 <table width="100%">
     <tr>
         <td><img src="images/cat.jpg" style="width:300px;height:400px;"></td>
