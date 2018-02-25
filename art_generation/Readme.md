@@ -1,5 +1,10 @@
-This folder contains the model for art generation by Neural style transfer.
-There are two examples with a cat in Picasso adn Dali styles
+This folder contains the model for art generation by Neural Style Transfer.
+
+In order to use this model you need to download the pretrained model imagenet-vgg-verydeep-19.mat from http://www.vlfeat.org/matconvnet/pretrained/ to the folder "pretrained_model".
+Then you can run model.py to generate images presented in output folders.
+If you want to generate your own image then you need to choose content and style images and put them in images folder.
+
+Since, I like cats and artworks of Dali and Picasso, I have generated two examples with a cat in Picasso and Dali styles. You can even try to exclude cat and use one artwork as a content image with another as style one.
 
 <table width="100%">
     <tr>
@@ -18,7 +23,3 @@ Example with Picasso
     </tr>
 
 And example with Dali
-
-In order to use this model you need to download the pretrained model imagenet-vgg-verydeep-19.mat from http://www.vlfeat.org/matconvnet/pretrained/
-Then you can run model.py to generate images presented in output folders.
-If you want to generate your image then you need to choose content and style image and put them in images folder.
