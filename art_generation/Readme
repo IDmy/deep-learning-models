@@ -1,5 +1,9 @@
 This folder contains the model for art generation by Neural style transfer.
 
+![alt text](https://github.com/IDmy/deep-learning-models/blob/master/art_generation/output/generated_image.jpg)
+
+![alt text](https://github.com/IDmy/deep-learning-models/blob/master/art_generation/output_dali/generated_image.jpg)
+
 <table width="100%">
     <tr>
         <td><img src="images/cat.jpg" style="width:300px;height:400px;"></td>
