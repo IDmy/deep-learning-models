@@ -16,7 +16,7 @@ I have used around 100 nice t-shirts for the discriminator and I got this result
 ![](out_man_tshirts_4/generated_tshirts.gif)
 
 
-<img src="/out_man_tshirts_4/generated_tshirts.gif" style="width:200px;height:200px;">
+<img src="out_man_tshirts_4/generated_tshirts.gif" style="width:200px;height:200px;">
 
 Not nice so far. Therefore the next step is to use DCGAN, which has convolutional layers and batch normalization that are supposed to help with the stability of the convergence.
 It also would be interesting to compare results and performance of these models.
