@@ -10,7 +10,7 @@ Since, I like cats and artworks of Dali and Picasso, I have generated two exampl
     <tr>
         <td><img src="images/cat_small.jpg" style="width:300px;height:400px;"></td>
         <td><p align="center"><img src="images/picasso_small.jpg" style="width:300px;height:400px;"></td>
-        <td align="right"><img src="output/generated_image.jpg" style="width:300px;height:400px;"></td>
+        <td align="right"><img src="output/picasso_cat.gif" style="width:300px;height:400px;"></td>
     </tr>
 
 Example with Picasso
@@ -19,7 +19,7 @@ Example with Picasso
     <tr>
         <td><img src="images/cat_small.jpg" style="width:300px;height:400px;"></td>
         <td><p align="center"><img src="images/dali_small.jpg" style="width:300px;height:400px;"></td>
-        <td align="right"><img src="output_dali/generated_image.jpg" style="width:300px;height:400px;"></td>
+        <td align="right"><img src="output_dali/dali_cat.gif" style="width:300px;height:400px;"></td>
     </tr>
 
 And example with Dali
