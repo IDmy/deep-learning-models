@@ -13,9 +13,6 @@ Thereafter you can just run the model.py and observe generated images in the out
 Since I was wondering can I generate a fancy t-shirt using latest trends, I decided to use GAN in this mission to be ready for the next summer season.
 I have used around 100 nice t-shirts for the discriminator and I got this result):
 
-![](out_man_tshirts_4/generated_tshirts.gif)
-
-
 <img src="out_man_tshirts_4/generated_tshirts.gif" style="width:200px;height:200px;">
 
 Not nice so far. Therefore the next step is to use DCGAN, which has convolutional layers and batch normalization that are supposed to help with the stability of the convergence.
