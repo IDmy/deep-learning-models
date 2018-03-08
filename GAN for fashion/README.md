@@ -2,7 +2,7 @@
 
 This folder contains Vanilla GAN and DCGAN for fashion generation.
 
-<img src="GANs.png" height="300" width="600">
+<img src="GANs.png">
 
 
 I would recommend, for those who are not familiar with a GAN concept, to read this [blogpost](https://towardsdatascience.com/understanding-generative-adversarial-networks-4dafc963f2ef) to get a nice overview of GAN model.
@@ -20,7 +20,10 @@ I have used around 100 nice t-shirts for the discriminator, Vanilla GAN and 57k 
 
 Not nice so far. Vanilla GAN has only 2 layers in generator and descriminator 
 
-Therefore the next step is to use Deep Convolutional GAN (DCGAN), which has convolutional layers and batch normalization that are supposed to help with the stability of the convergence. The original DCGAN uses 4 convolutional layers but I used only 3 to speed up calculations. Even with faster architecture I made only 20k epochs. Therefore, I suppose the result has to be better with 4 layers and more epochs. Also tuning of parameters may help to improve the result.   
+The next step is to use Deep Convolutional GAN (DCGAN), which has convolutional layers and batch normalization that are supposed to help with the stability of the convergence. The original DCGAN uses 4 convolutional layers presented on the image below. 
+<img src="dcgan.png">
+
+In my implementation I used only 3 layers to speed up calculations. Even with faster architecture I made only 20k epochs. Therefore, I suppose the result has to be better with 4 layers and more epochs. Also tuning the hyperparameters of model may help to improve the result.   
 
 #### DCGAN
 <img src="dcgan_out_man_tshirts/tshirts.gif" height="150" width="150">
