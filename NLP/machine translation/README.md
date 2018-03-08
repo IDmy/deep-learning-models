@@ -10,7 +10,7 @@ It was my project in one of the online courses and I decided to leave this examp
 I would like to demonstrate the behaviour of the attention mechanism during the learning process. It is extremly cool to observe how model trying to figure out how to translate the input date to a specific format. You can change "your_date" paramiter in the model to see how it will work with your example.
 
 #### Attention
-I have used around 100 nice t-shirts for the discriminator, Vanilla GAN and 57k epochs to get this result:
+
 <img src="output/attention.gif">
 
 At the end, I run the model trained with 20 epochs to translate several dates. Here is the result:  
