@@ -26,3 +26,4 @@ Therefore the next step is to use Deep Convolutional GAN (DCGAN), which has conv
 <img src="dcgan_out_man_tshirts/tshirts.gif" height="150" width="150">
 
 It looks that in both cases the generator learns the shape of t-shirts and in case of DCGAN performs better color generation. All t-shirts in train dataset have different design, color and prints that make this task quite difficult for the GAN.
+
