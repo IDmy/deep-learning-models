@@ -7,7 +7,7 @@ tuesday july 8 2008 -> 2008-07-08
  
 It was my project in one of the online courses and I decided to leave this example with date translation because of the computational simplicity. 
 
-I would like to demonstrate the behaviour of the attention mechanism during the learning process. It is extremly cool to observe how model trying to figure out how to translate the input date to a specific format. You can change "your_date" paramiter in the model to see how it will work with your example.
+I would like to demonstrate the behaviour of the attention mechanism during the learning process. It is extremly cool to observe how model trying to figure out how to translate the input date to a specific format. You can change "your_date" parameter in the model to see how it will work with your example.
 
 #### Attention
 
