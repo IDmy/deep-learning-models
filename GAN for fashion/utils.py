@@ -17,7 +17,7 @@ import os
 
 def generate_4x4_figure(samples):
   '''Generate a 4x4 figure.'''
-  fig = plt.figure(figsize=(1, 1))
+  fig = plt.figure(figsize=(3, 3))
   gs = gridspec.GridSpec(1, 1)
   gs.update(wspace=0.05, hspace=0.05)
 
@@ -27,7 +27,7 @@ def generate_4x4_figure(samples):
     ax.set_xticklabels([])
     ax.set_yticklabels([])
     ax.set_aspect('equal')
-    plt.imshow(sample.reshape(200, 200, 3))
+    plt.imshow(sample.reshape(64, 64, 3))
 
   return fig
 
@@ -47,5 +47,5 @@ def save_plot(samples, out_path, train_step):
   
   maybe_create_out_path(out_path)
   
-  plt.savefig(full_path, bbox_inches='tight')
+  plt.savefig(full_path, dpi = 200)
   plt.close(fig)

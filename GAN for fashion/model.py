@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 25 18:20:14 2018
-
-@author: dihnatov
-"""
 '''
 This implementaton of Vanilla GAN based on https://github.com/mari-linhares/DeepLearning/tree/master/GAN-fashion-MNIST
 The main changes are:
@@ -203,7 +197,7 @@ for i in range(FLAGS.train_steps):
     utils.save_plot(samples, FLAGS.output_path, i)
 
   # get real data
-  X_batch = np.array(random.sample(list(image_arr), 1))   #data.train.next_batch(FLAGS.batch_size)
+  X_batch = np.array(random.sample(list(image_arr), FLAGS.batch_size))
 
   # train discriminator
   _, D_loss_curr, summ = sess.run([D_solver, D_loss, summ_D_losses],
@@ -217,7 +211,7 @@ for i in range(FLAGS.train_steps):
   # eventually print train losses
   if i % 1000 == 0:
       print('Iter: {}'.format(i))
-      print('D loss: {:.4}'. format(D_loss_curr))
+      print('D loss: {:.4}'.format(D_loss_curr))
       print('G_loss: {:.4}'.format(G_loss_curr))
       print()
       
