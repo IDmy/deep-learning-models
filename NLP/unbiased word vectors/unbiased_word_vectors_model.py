@@ -169,7 +169,7 @@ def equalize(pair, bias_axis, word_to_vec_map):
     mu_B = np.add(np.divide(np.dot(mu,bias_axis), np.linalg.norm(bias_axis)),np.dot(bias_axis,np.linalg.norm(bias_axis))) 
     mu_orth = mu-mu_B
 
-    # Step 4: Set e1_orth and e2_orth to be equal to mu_orth (≈2 lines)
+    # Setting e1_orth and e2_orth to be equal to mu_orth
     e1_orth = mu_orth
     e2_orth = mu_orth
         
